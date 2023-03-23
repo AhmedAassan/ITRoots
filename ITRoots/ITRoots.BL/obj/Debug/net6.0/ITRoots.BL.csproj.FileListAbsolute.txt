@@ -1,0 +1,15 @@
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\bin\Debug\net6.0\ITRoots.BL.deps.json
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\bin\Debug\net6.0\ITRoots.BL.dll
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\bin\Debug\net6.0\ITRoots.BL.pdb
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\bin\Debug\net6.0\ITRoots.DAL.dll
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\bin\Debug\net6.0\ITRoots.DAL.pdb
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\ITRoots.BL.csproj.AssemblyReference.cache
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\ITRoots.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\ITRoots.BL.AssemblyInfoInputs.cache
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\ITRoots.BL.AssemblyInfo.cs
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\ITRoots.BL.csproj.CoreCompileInputs.cache
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\ITRoots.BL.csproj.CopyComplete
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\ITRoots.BL.dll
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\refint\ITRoots.BL.dll
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\ITRoots.BL.pdb
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.BL\obj\Debug\net6.0\ref\ITRoots.BL.dll

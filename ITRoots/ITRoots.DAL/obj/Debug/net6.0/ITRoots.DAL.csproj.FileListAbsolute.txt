@@ -1,0 +1,14 @@
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\bin\Debug\net6.0\ITRoots.DAL.deps.json
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\bin\Debug\net6.0\ITRoots.DAL.runtimeconfig.json
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\bin\Debug\net6.0\ITRoots.DAL.dll
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\bin\Debug\net6.0\ITRoots.DAL.pdb
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\ITRoots.DAL.csproj.AssemblyReference.cache
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\ITRoots.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\ITRoots.DAL.AssemblyInfoInputs.cache
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\ITRoots.DAL.AssemblyInfo.cs
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\ITRoots.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\ITRoots.DAL.dll
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\refint\ITRoots.DAL.dll
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\ITRoots.DAL.pdb
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\ITRoots.DAL.genruntimeconfig.cache
+C:\Users\Eng Ahmed\source\repos\ITRoots\ITRoots.DAL\obj\Debug\net6.0\ref\ITRoots.DAL.dll

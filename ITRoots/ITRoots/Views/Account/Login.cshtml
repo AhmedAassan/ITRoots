@@ -1,0 +1,57 @@
+﻿@model ITRoots.BL.Models.LoginVM
+@{
+    ViewData["Title"] = SharedLocalizer["Login"];
+    Layout = "~/Views/Shared/_Auth.cshtml";
+}
+
+					<div class="agileits-top">
+						<ul>
+								<li> <a class="dropdown-item d-flex justify-content-between"
+                                   href="@Url.Action("SetLanguage", "Language", new {
+                                                  culture = "en-US",
+                                                  returnUrl = Context.Request.Path + Context.Request.QueryString
+                                              })">
+                                    <span>English</span>
+									 </a>
+								</li>
+
+								<li>
+									<a class="dropdown-item d-flex justify-content-between"
+                                   href="@Url.Action("SetLanguage", "Language", new {
+                                                  culture = "ar-EG",
+                                                  returnUrl = Context.Request.Path + Context.Request.QueryString
+                                              })">
+                                    <span>Arabic</span>
+									</a>
+								</li>
+						</ul>
+						<div asp-validation-summary="All"></div>
+						<form asp-controller="Account" asp-action="Login">
+							
+							<input class="text email" type="email" name="email" placeholder=@SharedLocalizer["Email"] asp-for="Email" required="" />
+							<input class="text" type="password" name="password" placeholder=@SharedLocalizer["Password"] asp-for="Password"required="" />
+							
+							<div class="wthree-text">
+								<label class="anim">
+									<input type="checkbox" class="checkbox" asp-for="RememberMe" />
+									
+									<span>@SharedLocalizer["Remmember Me"]</span>
+								</label>
+								<div class="clear"> </div>
+							</div> 
+							<input type="submit" value="@SharedLocalizer["SIGNIN"]">
+						</form>
+
+						<div class="row justify-content-between">
+							<div class="col-6"> 
+							<p>@SharedLocalizer["Don't have an Account?"] <a asp-controller="Account" asp-action="Register">@SharedLocalizer["Register Now!"] </a></p>
+						</div>
+						<div class="col-6 mt-3">
+
+							<p> 
+								<a  asp-controller="Account" asp-action="ForgetPassword">@SharedLocalizer["Forgot Password?"]</a>
+							</p>
+						 </div>
+						</div>	
+
+					</div>

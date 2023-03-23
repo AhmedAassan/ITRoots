@@ -1,0 +1,24 @@
+﻿@model ITRoots.BL.Models.RegisterVM
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Auth.cshtml";
+}
+
+					<div class="agileits-top">
+						<div asp-validation-summary="All"></div>
+						<form asp-controller="Account" asp-action="Register">
+							
+							<input class="text email" type="email" name="email" placeholder="Email" asp-for="Email" required="" />
+							<input class="text" type="password" name="password" placeholder="Password" asp-for="Password" required="" />
+							<input class="text w3lpass" type="password"  placeholder="Confirm Password" asp-for="ConfirmPassword" required="" />
+							<div class="wthree-text">
+								<label class="anim">
+									<input type="checkbox" class="checkbox" asp-for="IsAgree" required="" />
+									<span>I Agree To The Terms & Conditions</span>
+								</label>
+								<div class="clear"> </div>
+							</div>
+							<input type="submit" value="SIGNUP">
+						</form>
+						<p>Don have an Account? <a asp-controller="Account" asp-action="Login"> Login Now!</a></p>
+					</div>

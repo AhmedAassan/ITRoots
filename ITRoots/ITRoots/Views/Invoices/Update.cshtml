@@ -1,0 +1,86 @@
+﻿@using ITRoots.BL.Interface
+@model ITRoots.BL.Models.InvoicesVM
+@inject IProductRep product
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-header">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<div class="title text-end">
+									<h4>Update Product</h4>
+								</div>
+								<nav aria-label="breadcrumb" role="navigation">
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item">
+											<a asp-controller="Home" asp-action="Index">Home</a>
+										</li>
+										<li class="breadcrumb-item active" aria-current="page">
+											 Update Product
+										</li>
+									</ol>
+								</nav>
+							</div>
+							<div class="col-md-6 col-sm-12 text-right">
+								<div class="dropdown">
+									<a
+										class="btn btn-warning"
+										asp-controller="Product" asp-action="Index"
+									>
+										Back
+									</a>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+<form asp-controller="Invoices" asp-action="Update" >
+	<input type="hidden" asp-for="Id" />
+							<div class="form-group row">
+								<label class="col-sm-12 col-md-2 col-form-label">total Amount</label>
+								<div class="col-sm-12 col-md-10">
+									<input
+										class="form-control"
+										type="text"
+										placeholder="Enter ur total Amount"
+										asp-for="totalAmount"
+									/>
+									<span class="bg-danger text-white" asp-validation-for="totalAmount"></span>
+									
+								</div>
+							</div>
+							
+							<div class="form-group row">
+								<label class="col-sm-12 col-md-2 col-form-label">Date Of Invoice</label>
+								<div class="col-sm-12 col-md-10">
+									<input
+										class="form-control"
+										type="date"
+										placeholder="Enter Date Of Invoice"
+										asp-for="DateOfInvoice"
+									/>
+									<span class="bg-danger text-white" asp-validation-for="DateOfInvoice"></span>
+									
+								</div>
+							</div>
+
+							<select asp-for="ProductId" class="form-control custom-select2 select2-hidden-accessible"
+								multiple="" style="width:100%;" data-select2-id="4" tabindex="-1"
+								aria-hidden="true">
+							<option value="default">Choose Product</option>
+								@foreach (var item in product.Get())
+								{
+									<option value="@item.Id">@item.Name</option>
+								}
+							</select>
+								
+
+							<center>
+								<input type="submit" value="Update" class="btn btn-primary" />
+								<input type="reset" value="Cancel" class="btn btn-danger" />
+							</center>
+						</form>
+
